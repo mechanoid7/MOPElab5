@@ -24,7 +24,7 @@ def get_sum(*args):  # take int X or array Xi_values for multiplication
     try:
         if args_enc[0] == "y":  # если функция первым аргументом принимает строку "у"(eng)
             if len(args_enc) == 1:  # только у
-                summa = sum(my_list)
+                summa = sum(my_list)  # Vostrikov
             else:  # ещё и Х
                 for j in range(N):
                     sum_i_temp = 1
